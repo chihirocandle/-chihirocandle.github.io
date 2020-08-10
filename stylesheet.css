@@ -92,3 +92,11 @@ input,textarea{
   background-color: #dee7ec;
   color: #889eab;
 }
+@media (max-width:670px) {
+  .flex-list{
+    flex-direction:column;
+  }
+  
+  .flex-list li{
+    margin:0 auto;
+  }
